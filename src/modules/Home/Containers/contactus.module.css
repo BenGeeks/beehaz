@@ -1,0 +1,62 @@
+.form_wrapper {
+  padding: 5px 0px;
+}
+
+.form_title {
+  display: block;
+  background-color: white !important;
+  margin-top: 8px;
+}
+
+.form_entry {
+  border-radius: 5px !important;
+  border: 1px solid #d1ceda;
+  width: 100% !important;
+  padding-left: 5px;
+}
+
+.form_entry_err {
+  border-radius: 5px !important;
+  border: 1px solid red;
+  width: 100% !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    color: rgba(255, 0, 0, 0);
+  }
+  100% {
+    color: rgba(255, 0, 0, 1);
+  }
+}
+
+.form_error {
+  font-size: smaller;
+  color: red;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.form_error_hidden {
+  display: none;
+}
+
+.form_submit {
+  background-color: #439a86;
+  color: white;
+  padding: 7px;
+  width: 200px;
+  border: 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 30px 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.form_submit:hover {
+  background-color: #177e66;
+}
+
+#message {
+  height: 4rem !important;
+}

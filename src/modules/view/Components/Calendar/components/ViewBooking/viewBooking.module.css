@@ -1,0 +1,26 @@
+.mainContainer{
+    padding:0.4em;
+}
+.sideText{
+    color:grey;
+    padding-bottom: 0.5em;
+}
+.mainText{
+    display: flex;
+    justify-content: left;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+.icons {
+    font-size: 14px !important;
+    margin-left: 3px !important;
+}
+.containerBox{
+    float: left;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    padding: 5px 5px 5px 10px;
+}

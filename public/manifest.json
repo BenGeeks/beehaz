@@ -1,0 +1,43 @@
+{
+  "short_name": "BeeHaz",
+  "name": "BeeHaz Booking App",
+  "description": "Commission free and mobile friendly online booking system and channel manager for your hotel, bed and breakfast, motel, vacation rental, hostel, campground, parking lot, and serviced apartments. The software is simple to use and available for the lowest price in the market.",
+  "icons": [
+    {
+      "src": "./icons/BeehazLogo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./icons/BeehazLogo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icons/BeehazLogo144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "./icons/BeehazLogo96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./icons/BeehazLogo48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "./icons/Beehaz_maskable_icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/view/calendar",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#f5b60e",
+  "background_color": "#ffffff"
+}

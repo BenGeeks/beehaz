@@ -1,0 +1,105 @@
+.featuresMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px 16px 0px 16px;
+    margin: auto;
+}
+.featuresMain h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.featuresMainlists {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.featuresMainlistsheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+.col1 {
+    width: 60%;
+    font-size: 22px;
+    font-weight: 600;
+    color:  #439a86;
+    display: flex;
+    justify-content: flex-start;
+}
+.col2 {
+    width: 20%;
+    font-size: 22px;
+    font-weight: 600;
+    color:  #000;
+    display: flex;
+    justify-content: center;
+}
+.col2 span {
+    text-align: center;
+}
+.featuresMainlistsbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.featuresMainlistsbodyinner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    border-top: 3px solid rgba(232, 230, 230, 1);
+}
+.featuresMainlistsbodyinner .col1 {
+    width: 60%;
+    font-size: 16px;
+    font-weight: 500;
+    color:  #343436;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.featuresMainlistsbodyinner img{
+    width: 22px;
+    margin:5px;
+}
+.mainBut {
+    background-color: #f5b60e;
+    color: #343436;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: unset;
+    outline: unset;
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 60%);
+}
+
+@media only screen and (max-width: 767px) {
+    .featuresMain h1 {
+        font-size: 28px;
+    }
+    .col1, .col2  {
+        font-size: 16px;
+    }
+
+    .featuresMainlistsbodyinner .col1 {
+        font-size: 14px;
+    }
+    .featuresMainlistsbodyinner .col2 img {
+        width: 18px;
+    }
+}

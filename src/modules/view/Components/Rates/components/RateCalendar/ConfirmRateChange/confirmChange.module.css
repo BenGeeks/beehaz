@@ -1,0 +1,39 @@
+.customDialg{
+    top:20%;
+    right:0
+}
+.deleteModalBody {
+    font-size: 1em;
+}
+.modalHeader{
+    font-size: 1.4em !important;
+}
+.modalFooter {
+    margin: 0.7em 0em;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em;
+}
+.savBtn {
+    background-color: #439a86;
+    color: white;
+    padding: 0.5em 0.8em;
+    border: 0px;
+    font-size: 1em;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+.delBtn{
+    background-color: #dc3545  !important;
+    color: white !important;
+    padding: 0.5em 0.8em !important;
+    border: 0px !important;
+    font-size: 1em !important;
+    border-radius: 5px !important;
+}
+.savBtn:hover {
+    background-color: #177e66;
+}
+.delBtn:hover {
+    background-color: #cd0027 !important;
+}

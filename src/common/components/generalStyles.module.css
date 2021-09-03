@@ -1,0 +1,33 @@
+.weekcontainer{
+    width: 100%;
+    height: auto;
+    padding:0.5em;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+}
+.weekDays{
+    background: #bfbfbf ;
+    display: block;
+    border: 1px solid #eeeeee;
+    padding:0.4em 0.3em;
+    margin-right: 0.4em;
+    text-align: center;
+    color:white;
+    border-radius: 0.9em;
+    min-width: 3em;
+    cursor:pointer;
+    
+}
+.weekDays_active{
+    background: grey ;
+    display: block;
+    border: 1px solid #eeeeee;
+    padding:0.4em 0.3em;
+    margin-right: 0.4em;
+    text-align: center;
+    color:white;
+    border-radius: 0.9em;
+    min-width: 3em;
+    cursor:pointer;
+}

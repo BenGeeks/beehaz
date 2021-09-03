@@ -1,0 +1,41 @@
+.para{
+    font-size: 15px;
+    line-height: 25px;
+}
+.headerTitle{
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    line-height: 1.125em !important;
+}
+.container{
+    padding-left: 15%;
+    padding-right:15%;
+    padding-top: 2.5em;
+}
+.headings{
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+
+@media (max-width:1200px){
+    .container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (max-width:520px){
+    .container{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .headerTitle{
+        font-size: 22px !important;
+    }
+    .headings{
+        font-size: 1rem;
+    }
+    .para{
+        font-size: 13px;
+    }
+}

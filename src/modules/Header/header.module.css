@@ -1,0 +1,76 @@
+.logo {
+  width: auto;
+  height: 50px;
+  margin: 0 20px;
+}
+.wrapper {
+  width: 75%;
+  margin-bottom: -10px;
+  max-width: 1200px;
+}
+.navbar {
+  padding-bottom: 0 !important;
+}
+.navLink {
+  min-width: 150px;
+  padding: 2px 8px !important;
+  text-align: right;
+  text-decoration: none;
+  color:grey;
+}
+.navLink:hover {
+  background: #323232;
+  color: #fff !important;
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+.menu {
+  padding-top: 10px;
+  padding-right: 20px;
+  display: none !important;
+  /* position: fixed; */
+  /* right: 40px; */
+}
+.navButton {
+  display: block;
+  width: 150px;
+  height: 35px;
+  background-color: #eeeeee;
+  padding: 5px;
+  text-align: center;
+}
+
+.navButton:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #000000;
+  margin: 6px 0;
+}
+
+.toggle {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  transition: transform 0.5s;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+@media (max-width: 1365px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .menu {
+    display: block !important;
+  }
+  .navLink {
+    min-width: unset !important;
+  }
+}

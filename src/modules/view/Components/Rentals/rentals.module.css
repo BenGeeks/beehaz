@@ -1,0 +1,138 @@
+.rentalHeader {
+  display: flex;
+  background-color: rgb(52, 52, 54);
+  width: 100%;
+  height: 49px;
+  justify-content: space-between;
+  padding: 0em;
+  margin-bottom: 0.1rem;
+}
+.iconstyle {
+  height: 49px;
+  width: auto;
+  padding: 10px 6px;
+  align-items: center;
+  margin-left: 6px;
+}
+.deleteModalBody {
+  font-size: 13px;
+}
+.modalTitle {
+  font-size: 20px !important;
+}
+.btnClass {
+  margin-right: 1em;
+  font-size: 13px;
+  padding: 0.5em 0.2em;
+  width: 70px;
+  color: white;
+  border-radius: 5px;
+  border: #a7a6a6;
+}
+.btnClass:disabled {
+  background-color: #67a594;
+}
+.allBtn {
+  background-color: #439a86;
+  color: white;
+  padding: 0.3em;
+  border: 0px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  margin-left: 1em;
+  min-width: 10rem;
+}
+.icons {
+  cursor: pointer;
+}
+.selectedIcon {
+  background: #dcdcdc;
+}
+
+.flexEnd {
+  margin: 6px 1px;
+}
+
+.modalFooter {
+  margin: 0.7em 0em;
+  align-items: center;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.tabs > a {
+  color: #28a745 !important;
+}
+
+.tabs a:hover {
+  color: #006b19 !important;
+}
+
+.tabs a:focus {
+  color: black !important;
+}
+
+.tabs a:active {
+  color: black !important;
+}
+
+.form_entry_color {
+  width: 30px !important;
+  height: 30px !important;
+  margin: 10px;
+}
+
+.containerColor {
+}
+
+.containerBox {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+  float: left;
+}
+
+.active,
+.containerBox:hover {
+  border: 1px solid black;
+}
+
+.color_picker_text {
+  margin: 0px 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .allBtn {
+    min-width: 7rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .rentalHeader {
+    height: 100px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .rentalHeader {
+    height: 40px;
+  }
+  .iconstyle {
+    height: 40px;
+  }
+  .allBtn {
+    margin-bottom: 5px;
+  }
+  .deleteModalBody {
+    font-size: 11px;
+  }
+  .modalTitle {
+    font-size: 20px !important;
+  }
+  .btnClass {
+    font-size: 12px;
+    margin-right: 2.5em;
+  }
+}

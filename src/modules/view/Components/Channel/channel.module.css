@@ -1,0 +1,166 @@
+.guestHeader {
+    display: flex;
+    background-color:  rgb(52, 52, 54) ;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0.6em;
+}
+.btn {
+    background-color: #439a86;
+    color: white;
+    padding: 0.3em;
+    border: 0px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    margin-left: 1em;
+    min-width:10rem;
+}
+.btn:hover {
+    background-color: #177e66;
+}
+.flexEnd {
+    margin: 0;
+    padding-top: 4px;
+}
+.header{
+    font-weight: 600;
+    padding: 0.3em ;
+    color:white;
+    line-height: 1.2;
+    display: flex;
+}
+.channelHeader{
+    font-size: 1rem;
+    padding: 0.1em;
+    margin-bottom: 3em;
+    line-height: 1.6;
+}
+.listItem{
+    display: flex;
+    padding: 0.4em 1em;
+    justify-content: space-between;
+}
+.btnClass{
+    margin-right:1em;
+    font-size: 13px;
+    padding: 0.2em;
+    width: 80px;
+    color:white;
+    border-radius: 5px;
+    border: #a7a6a6;
+}
+.underLine{
+    background: #dcdc;
+    width: 100%;
+}
+.editHeader{
+    font-size: 1rem;
+    padding: 0.1em;
+    line-height: 1.6;
+}
+.form_entry{
+    border-radius: 5px !important;
+    border: 1px solid #d1ceda;
+    overflow: hidden;
+    padding-left: 5px;
+    height: 35px;
+    font-size: 0.8125rem !important;
+    width: 352px !important;
+}
+.btnSave{
+    margin-right:1em;
+    font-size: 13px;
+    padding: 0.1em;
+    width: 90px;
+    color:white;
+    border-radius: 5px;
+    border: #a7a6a6;
+    background-color: #439a86;
+    height: 2rem;
+}
+.btnCopy{
+    margin-right:1em;
+    font-size: 13px;
+    padding: 0.1em;
+    width: 80px;
+    color:white;
+    border-radius: 5px;
+    border: #a7a6a6;
+    background-color: rgb(108, 117, 125);
+    height: 2rem;
+}
+.rentalName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 124px;
+}
+.rentalList{
+    width:180px;
+}
+.formInp1{
+    display: flex;
+    margin-right:12px ;
+}
+.formInp2{
+    display: flex;
+}
+.hideIcon{
+    display: none;
+}
+@media screen and (max-width: 640px){
+    .formInp1{
+        flex-direction: column;
+    }
+    .formInp2{
+        flex-direction: column;
+    }
+    .btnCopy{
+        display: none;
+    }
+    .hideIcon{
+        display: flex;
+    }
+}
+@media screen and (max-width: 920px){
+    .btnClass{
+        width: 62px;
+        margin-right: 0.3em;
+    }
+    .listItem{
+        padding: 0.3em 0em;
+    }
+    .form_entry{
+        width: 242px !important;
+    }
+    .btnSave{
+        width: 75px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 720px){
+    .form_entry{
+        width: 210px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .flexEnd {
+        display: flex;
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .btn {
+        min-width: 8rem;
+    }
+    .guestHeader {
+        padding: 13px 12px;
+    }
+    .form_entry{
+        width: 156px !important;
+    }
+}
+
+
+

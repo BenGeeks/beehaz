@@ -1,0 +1,15 @@
+.modalButton{
+    background-color: #439a86 ;
+    color:#fff;
+    border-radius: 6px ;
+    padding:7px 12px;
+    margin-top:4px;
+    align-items: center;
+    border: #2e6f61;
+    width: 240px;
+}
+@media(max-width: 700px) {
+    .modalButton{
+        width: 190px;
+    }
+}

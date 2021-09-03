@@ -1,0 +1,92 @@
+<style>
+    .A4 {
+        background: white;
+        width: 21cm;
+        height: 29.7cm;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 25px;
+        margin-bottom: 0.5cm;
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        overflow-y: scroll;
+        box-sizing: border-box;
+        font-size: 12pt;
+    }
+
+    @media print {
+        .page-break {
+            display: block;
+            page-break-before: always;
+        }
+        /* size: A4 portrait; */
+    }
+
+    @media print {
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .A4 {
+            box-shadow: none;
+            margin: 0;
+            width: auto;
+            height: auto;
+        }
+        .noprint {
+            display: none;
+        }
+        .enable-print {
+            display: block;
+        }
+    }
+
+</style>
+<div class="A4">
+    <img src="https://static.wixstatic.com/media/e30525_75788534561c4d29b463770cec76ddb4~mv2.png/v1/fill/w_285,h_57,al_c,q_85,usm_0.66_1.00_0.01/Logo_Beehaz%20yellow%20ee.webp">
+    <hr>
+    Invoice Date {{context.invoiceDate}}<br>
+    Due Date {{context.dueDate}}<br>
+    Currency {{context.currency}}<br>
+    <hr>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                Recipient Detail
+                <hr>
+                {{context.recipientDetail.name}}<br>
+                {{context.recipientDetail.company}}<br>
+                {{context.recipientDetail.address1}}<br>
+                {{context.recipientDetail.address2}}<br>
+                {{context.recipientDetail.email}}<br>
+            </td>
+            <td>
+                Sender Detail
+                <hr>
+                {{context.senderDetail.name}}<br>
+
+                {{context.senderDetail.address1}}<br>
+                {{context.senderDetail.address2}}<br>
+
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    items:
+    <hr>
+    {% for i in context.invoiceItem %}
+    {{i.id}}
+    {{i.title}}
+    {{i.fee}}
+    <hr>
+    {% endfor %}
+    total {{context.total}}<br>
+
+    {{context.invoiceText}}<br>
+    {{context.invoiceFooter}}<br>
+    {{context.paymentStatus}}<br>
+    {{context.bookingId}}<br>
+    {{guestId}}
+
+    <div>

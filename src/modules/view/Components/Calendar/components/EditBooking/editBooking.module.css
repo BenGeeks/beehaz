@@ -1,0 +1,373 @@
+.modal_body {
+  /*min-height: 830px;*/
+}
+.upperRow {
+  overflow: hidden;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+}
+
+.tabBox {
+  background-color: inherit;
+  cursor: pointer;
+  display: block;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-bottom: 2px solid transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tabBox:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 2px solid #000;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper {
+  width: 400px !important;
+}
+
+.form_wrapper {
+  padding: 5px 0px;
+  margin-left: 10px !important;
+}
+
+.form_entry {
+  border-radius: 5px !important;
+  border: 1px solid #d1ceda;
+  width: 210px !important;
+  padding-left: 5px;
+  height: 35px;
+  font-size: 0.8125rem !important;
+}
+
+.form_entry_color {
+  width: 40px !important;
+  height: 40px;
+  border: 1px dashed #b5b5b5;
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+.form_entry_select {
+  font-size: 13px !important;
+}
+.form_entry_phone {
+  border-radius: 5px !important;
+  width: 210px !important;
+  height: 35px;
+  font-size: 0.8125rem !important;
+}
+
+.form_entry_half {
+  border-radius: 5px !important;
+  border: 1px solid #d1ceda;
+  padding-left: 5px;
+  height: 35px;
+  font-size: 0.8125rem !important;
+  margin-right: 10px;
+}
+
+.form_title {
+  width: 140px;
+  background-color: white !important;
+  margin-top: 8px;
+  font-size: 0.8125rem !important;
+}
+
+.form_title_half {
+  background-color: white !important;
+  margin-top: 8px;
+  font-size: 0.8125rem !important;
+}
+
+.defaultFont {
+  color: #495057 !important;
+  font-size: 0.8125rem !important;
+}
+
+.subHeader {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.button_group {
+  flex-direction: row;
+}
+
+.settings_save {
+  background-color: #439a86;
+  color: white;
+  padding: 6px;
+  width: 200px;
+  border: 0px;
+  font-size: 1em;
+  border-radius: 5px;
+  margin: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.settings_save:hover {
+  background-color: #177e66;
+}
+
+.atWidth {
+  width: 40px;
+}
+
+.paymentTitleWidth {
+  width: 50px;
+}
+
+.totalEntryWidth {
+  width: 70px;
+}
+
+.guestTitleWidth {
+  width: 70px;
+}
+
+.atEntryWidth {
+  width: 89px;
+}
+
+.guestEntryWidth {
+  width: 98px;
+}
+
+.statusEntryWidth {
+  width: 170px;
+}
+
+.checkTitleWidth {
+  width: 80px;
+}
+
+.calendarWidth {
+  width: 130px;
+}
+
+.text_area {
+  width: 100%;
+  margin-top: 19px;
+  font-size: inherit !important;
+}
+
+/* ======================= */
+/* Payment tab starts here */
+/* ======================= */
+
+.payment_title {
+  width: 200px;
+  background-color: white !important;
+  margin-top: 8px;
+  font-size: 0.8125rem !important;
+}
+
+.payment_data {
+  width: 80px;
+  background-color: white !important;
+  margin-top: 8px;
+  font-size: 0.8125rem !important;
+}
+
+.payment_title_sm {
+  width: 76px;
+  background-color: white !important;
+  margin-top: 8px;
+  font-size: 0.8125rem !important;
+}
+
+.payment_entry_sm {
+  border-radius: 5px !important;
+  border: 1px solid #d1ceda;
+  width: 150px !important;
+  padding-left: 5px;
+  height: 35px;
+  font-size: 0.8125rem !important;
+}
+
+.payment_entry_amount {
+  border-radius: 5px !important;
+  border: 1px solid #d1ceda;
+  width: 150px !important;
+  padding-left: 5px;
+  height: 35px;
+  font-size: 0.8125rem !important;
+}
+.containerBox{
+  float: left;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 2px solid transparent;
+  margin: 5px;
+}
+.active1, .containerBox:hover {
+  border :1px solid black;
+}
+@media screen and (max-width: 350px) {
+  .settings_save{
+    margin:3px;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .text_area {
+    width: 280px !important;
+    height: 200px;
+  }
+  .divWrapper{
+    padding: 0;
+  }
+  .payment_title {
+    width: 145px;
+  }
+  .payment_entry_amount {
+    width: 70px !important;
+  }
+  .containerBox{
+    width:20px;
+    height:20px;
+  }
+  .form_entry_color{
+   width:30px !important;
+    height:30px !important;
+  }
+  .tabBox {
+    padding: 5px 12px;
+  }
+  .form_entry {
+    width: 270px !important;
+  }
+  .guestEntryWidth {
+    width: 60px;
+  }
+  .calendarWidth {
+    width: 70%;
+  }
+  .atWidth {
+    width: 80px;
+    margin-top: 5px;
+  }
+  .atEntryWidth {
+    width: 190px;
+    margin-top: 5px;
+  }
+  .totalTitleWidth {
+    width: 80px;
+  }
+  .guestTitleWidth {
+    width: 70px;
+  }
+  .paymentTitleWidth {
+    width: 85px;
+  }
+  .totalEntryWidth {
+    width: 70%;
+  }
+  .statusEntryWidth {
+    width: 70%;
+    margin-top: 5px;
+  }
+  .widthTotal {
+    width: 170px;
+  }
+  .form_entry_select {
+    width: 270px !important;
+    height: 35px;
+  }
+  .tabBox {
+    text-align: center;
+  }
+  .upperRow {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.form_entry_select {
+  width: 210px !important;
+  height: 35px;
+}
+
+.form_entry_err {
+  border-radius: 5px !important;
+  border: 1px solid red;
+  width: 210px !important;
+  height: 35px;
+}
+
+.form_error {
+  font-size: smaller;
+  color: red;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.form_error_hidden {
+  display: none;
+}
+
+/* .toolTipIconContainer{
+  position: absolute;
+  left: 130px;
+  width: 10px;
+  color: white;
+} */
+
+.toolTipIcon {
+  transform: rotate(10deg);
+  margin-left: 6px;
+  margin-top: -10px;
+  font-size: 25px !important;
+}
+
+.toolTip {
+  max-width: 50vw;
+}
+@media screen and (max-width: 767px) {
+  .form_entry{
+    width: 202px !important;
+  }
+  .text_area {
+    height: 200px !important;
+  }
+  .atEntryWidth{
+    width: 83px;
+  }
+  .guestEntryWidth{
+    width: 61px;
+  }
+  .statusEntryWidth{
+    width: 70%;
+  }
+  .settings_save{
+    padding:6px 2px!important;
+    width: 123px;
+  }
+  .form_entry_color{
+    width:30px !important;
+    height: 30px!important;
+  }
+  .containerBox{
+    width:20px;
+    height:20px;
+  }
+}
+@media (max-width: 992px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}

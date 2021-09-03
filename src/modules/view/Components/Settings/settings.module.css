@@ -1,0 +1,129 @@
+.settings__header {
+  margin: 8px 0px 0px 8px !important;
+  font-family: 'Montserrat', 'roboto' !important;
+  font-weight: 700 !important;
+  font-size: 1.3em !important;
+  padding-bottom: 0.7em !important;
+}
+
+.settings_wrapper {
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.input_group {
+  border-radius: 5px !important;
+  flex-wrap: unset !important;
+}
+
+.input_group_text {
+  border: none !important;
+  background-color: white !important;
+  width: 200px;
+  font-size: 0.875rem !important;
+}
+.form_check {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.numberOfField {
+  width: 70px !important;
+  margin-right: 15px;
+  margin-top: -5px;
+  height:33px;
+}
+.form_control {
+  border-radius: 5px !important;
+}
+
+.settings_save {
+  background-color: #439a86;
+  color: white;
+  padding: 7px;
+  width: 200px;
+  border: 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.settings_save:hover {
+  background-color: #177e66;
+}
+.form_entry {
+  padding:0 !important;
+  margin:0;
+  border: none !important;
+  font-size: 14px !important;
+}
+
+.form_control_radio {
+  display: flex;
+  flex-direction: row;
+}
+
+.defaultFont {
+	color: #495057 !important;
+	font-size: .875rem !important;
+}
+
+.two_yrs_input {
+  margin-top: 3px !important;
+}
+
+.two_yrs_label{
+  margin-right: 5px;
+  padding-top: 0.5em;
+}
+
+.toolTipIcon {
+  transform: rotate(10deg);
+  margin-left: 6px;
+  margin-top: 0px;
+  font-size: 20px !important;
+}
+
+.toolTip {
+  max-width: 50vw;
+}
+@media screen and (max-width: 700px) {
+  .numberOfField {
+    width: 60px;
+    margin-right: 15px;
+    margin-top: -5px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .input_group_text {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .form_entry{
+    font-size: 13px !important;
+  }
+  .settings__header{
+    margin: 10px 0px 0px 0px !important;
+  }
+  .input_group_text {
+    width: 130px;
+    padding-left: 0px !important;
+    font-size: 13px !important;
+  }
+  .defaultFont{
+    font-size: 13px !important;
+  }
+  .form_control_radio {
+    /*flex-direction: column;*/
+  }
+  .toolTipIcon{
+    font-size: 14px !important;
+  }
+  .settings_save{
+    font-size: 0.8rem;
+  }
+}

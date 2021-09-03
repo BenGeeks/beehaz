@@ -1,0 +1,178 @@
+.guestHeader {
+  display: flex;
+  background-color:  rgb(52, 52, 54) ;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0.6em;
+}
+.allBtn {
+  background-color: #439a86;
+  color: white;
+  padding: 0.3em;
+  border: 0px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  margin-left: 1em;
+  min-width: 10rem;
+}
+.allBtn:hover {
+  background-color: #177e66;
+}
+.searchContainer {
+  margin-left: 1em;
+  padding: 0em 0.5em;
+}
+.viewBtn {
+  margin-right: 0;
+}
+
+.btn_csv {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+.btn_csv:hover {
+  text-decoration: none;
+  background-color: #177e66;
+  color: white;
+}
+.btn {
+  background-color: #439a86;
+  color: white;
+  padding: 0.3em;
+  border: 0px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  margin-left: 1em;
+  min-width: 10rem;
+}
+.btn:hover {
+  background-color: #177e66;
+}
+
+.search_field {
+  width: 200px;
+  height:32px !important;
+}
+.search_field input{
+  font-size: 13px !important;
+}
+
+.flexEnd {
+  margin: 0;
+  padding-top: 4px;
+}
+.upperRow {
+  overflow: hidden;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+}
+.tabBox {
+  background-color: inherit;
+  cursor: pointer;
+  display: block;
+  color: #000 !important;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-bottom: 2px solid transparent;
+}
+.active{
+  border-bottom: 2px solid #000;
+}
+.tabButton{
+  padding-right: 22px !important;
+}
+.arrowIcon{
+  font-size: 14px !important;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.tabBox:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+.savBtn{
+  background-color: #439a86 !important;
+  color: white;
+  padding: 0.5em 0.8em !important;
+  border: 0px !important;
+  font-size: 1em !important;
+  margin-right: 1em !important;
+  border-radius: 5px !important;
+  width: 150px;
+}
+.savBtn:hover{
+  background-color: #177e66 !important;
+}
+@media screen and (max-width: 767px) {
+  .viewBtn {
+    display: none;
+  }
+  .btn_csv {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+  .btn {
+    margin-right: 1em !important;
+    min-width: 120px !important;
+  }
+  .tabBox{
+    font-size: 13px;
+    padding: 12px 10px;
+  }
+  .arrowIcon{
+    font-size: 10px !important;
+  }
+ }
+
+@media screen and (max-width: 620px) {
+  .guestHeader {
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .flexEnd {
+    display: flex;
+    margin: 5px;
+    justify-content: flex-start;
+  }
+
+  .btn {
+    min-width: 150px !important;
+  }
+
+  .searchContainer {
+    display: flex;
+    margin: 5px;
+    justify-content: flex-start;
+    margin-left: 10px;
+    padding: 0em 0.5em;
+  }
+
+  .search_field {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .flexEnd {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 5px;
+  }
+
+  .guestHeader {
+    padding: 0px !important;
+    height: 120px;
+  }
+  .tabBox{
+    padding: 10px 8px;
+  }
+}

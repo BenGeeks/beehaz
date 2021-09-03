@@ -1,0 +1,180 @@
+.login {
+  padding: 50px 0px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.login_wrapper {
+  display: block;
+  position: relative;
+  border: 3px solid #439a86;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.login_image {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  margin: 10px;
+}
+
+.login_header {
+  padding: 10px 0px 50px 0px;
+}
+
+.input_group {
+  border-radius: 5px !important;
+}
+
+.input_group_text {
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #439a86;
+  background-color: #439a86;
+  width: 110px;
+  font-size: small;
+  color: white;
+  padding: 6px;
+}
+
+.form_control {
+  border: 1px solid #439a86;
+}
+
+.login_submit {
+  background-color: #439a86;
+  color: white;
+  padding: 10px;
+  width: 300px;
+  border: 0px;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.login_submit:disabled {
+  background-color: #61aa99;
+}
+.center {
+  text-align: center;
+}
+
+.login_separator {
+  text-align: center;
+  color: lightgray;
+  padding-bottom: 20px;
+}
+
+.login_socialmedia {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa_facebook {
+  font-size: 25px;
+  color: #4267b2;
+  margin-right: 30px;
+}
+
+.fa_google {
+  font-size: 20px;
+}
+
+.login_google {
+  background-color: #db4a39;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login_facebook {
+  background-color: #3b5998;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login_create {
+  text-decoration: none;
+  font-size: 12px;
+  color: #439a86;
+}
+
+.login_create:hover {
+  text-decoration: none;
+  font-size: 12px;
+  color: #439a86;
+  font-weight: bold;
+}
+
+.google_icon {
+  width: 23px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.beehaz_icon {
+  width: 28px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.login_new_button {
+  background-color: white;
+  color: rgb(95, 95, 95);
+  border: 2px solid rgb(180, 180, 180);
+  box-shadow: 1px 1px 5px 2px lightgray;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mainBtn {
+  background-color: #f5b60e;
+  width: 200px;
+  color: #343436;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: unset;
+  outline: unset;
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 60%);
+}
+.mainBut:hover {
+  color: #343436;
+}
+
+@media (min-width: 800px) {
+  .login_wrapper {
+    padding: 25px 100px;
+  }
+
+  .input_group_text {
+    width: 150px;
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  .mainContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%;
+  }
+}

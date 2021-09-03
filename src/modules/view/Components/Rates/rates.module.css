@@ -1,0 +1,226 @@
+.rateInput {
+  width: 55px;
+  padding: 0 8px;
+  border: 1px solid #ced4da;
+  outline: none;
+  height: 25px;
+}
+.thirdRow {
+  font-weight: 600;
+  font-size: 14px;
+}
+.ratesHeader {
+  display: flex;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 50px;
+  padding: 0.5em;
+}
+.upperRow {
+  background-color: darkgrey;
+  height: 1.2em;
+}
+.tabs {
+  background-color: #4b4848;
+  padding: 0.2em 1em !important ;
+  margin: 0em 0.12em;
+}
+.tabBox {
+  background-color: darkgrey;
+  padding-left: 10px !important;
+}
+.tabBox a {
+  line-height: 1.8;
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.tabBox a:hover {
+  color: #fff;
+  border-color: transparent !important;
+}
+.rateSettingHeader {
+  font-weight: 600;
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
+  margin-top: 0.2em;
+}
+.taxHeader {
+  position: relative;
+  max-width: 372px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.rateBox {
+  display: flex;
+  flex-direction: row;
+}
+.weekdiscount {
+  margin-left: 1em;
+}
+
+table {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 0;
+}
+
+.slider {
+  cursor: pointer;
+}
+.allBtn {
+  background-color: #439a86;
+  color: white;
+  padding: 0.35em;
+  border: 0px;
+  margin-right: 1em;
+  border-radius: 5px;
+  min-width: 7rem;
+}
+
+.allBtn:hover {
+  background-color: #177e66;
+}
+.allBtn:disabled{
+  background-color: #699c8d;
+}
+
+.rowSetup {
+  margin-bottom: 0.7em;
+}
+.labelShow {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.ratelistTable,
+.ratelistTable th,
+.ratelistTable tr,
+.ratelistTable td {
+  border: 3px solid #f3f6f5 !important;
+  padding: 0.5rem !important;
+}
+
+.ratelistTable thead {
+  background-color: #f3f6f5;
+  font-size: 1rem;
+  font-weight: 400 !important;
+}
+
+.tableWidth65 {
+  width: 65%;
+}
+
+.tableWidth35 {
+  width: 35%;
+}
+
+.toolTipIconContainer {
+  width: 10px;
+  padding: 0 0.5em;
+  margin-top:-0.5em;
+}
+
+.toolTipIcon {
+  transform: rotate(10deg);
+  font-size: 1em !important;
+}
+
+.toolTip {
+  max-width: 50vw;
+}
+
+.ratelistBtn {
+  background-color: #439a86;
+  color: white;
+  padding: 0.3em;
+  border: 0px;
+  border-radius: 5px;
+  min-width: 10rem;
+  margin-right: 1em;
+}
+
+.ratelistBtn:hover {
+  background-color: #177e66;
+}
+.rentalName {
+  position: relative;
+  max-width: 372px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableWidth40 {
+  width: 40%;
+}
+
+.tableWidth15 {
+  width: 15%;
+}
+
+.tableWidth90px {
+  width: 90px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.form_title,
+.form_label,
+.form_entry {
+  font-size: .8125rem !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.8em;
+  }
+  .rateSettingHeader {
+    font-size: 1.3em;
+  }
+  .weekdiscount {
+    margin-left: 0em;
+  }
+  .allBtn {
+    min-width: 5rem;
+  }
+  .toolTip {
+    max-width: 70vw;
+  }
+
+  .ratelistTable,
+  .ratelistTable th,
+  .ratelistTable tr,
+  .ratelistTable td {
+    border: 3px solid #f3f6f5 !important;
+    padding: 0.25rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  .btnContainer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    margin-bottom: 15px;
+    margin-right: 25px;
+  }
+
+  .ratelistBtn {
+    font-size: 0.9em;
+    padding: 0.25em;
+    min-width: 6rem;
+  }
+  .rentalName {
+    max-width: 300px;
+  }
+  .taxHeader{
+    max-width: 300px;
+    font-size: 0.75rem !important;
+  }
+}

@@ -1,0 +1,38 @@
+.wrapField {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 115px;
+  display: block;
+  font-size: 13px;
+}
+.icon {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+caption {
+  font-family: 'Montserrat', 'Roboto' !important;
+  text-align: center !important;
+}
+
+.color_box {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapField {
+    width: 70px;
+    font-size: 0.8em;
+  }
+  caption {
+    font-size: inherit !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .wrapField {
+    width: 65px;
+    font-size: 0.8em;
+  }
+}

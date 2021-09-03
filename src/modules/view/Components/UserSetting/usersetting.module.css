@@ -1,0 +1,97 @@
+.usersettingHeader {
+  font-weight: 700;
+  font-size: 1.3em;
+  padding-bottom: 0.7em;
+}
+
+.deleteModalBody {
+  font-size: 1em;
+}
+.modalFooter {
+  margin: 0.7em 0em;
+  align-items: center;
+  text-align: center;
+  padding: 0.5em;
+}
+.savBtn {
+  background-color: #177e66;
+  color: white;
+  padding: 0.5em 0.8em;
+  border: 0px;
+  font-size: 1em;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+.savBtn:disabled{
+  background-color:#61aa99;
+}
+.delBtn{
+  background-color: #dc3545  !important;
+  color: white !important;
+  padding: 0.5em 0.8em !important;
+  border: 0px !important;
+  font-size: 1em !important;
+  border-radius: 5px !important;
+}
+.delBtn:hover {
+  background-color: #cd0027 !important;
+}
+.form_check {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.two_yrs_label{
+  margin-right: 5px;
+}
+
+.two_yrs_input {
+  margin-top: 3px !important;
+}
+
+.numberOfField {
+  width: 70px !important;
+  margin-right: 15px;
+  margin-top: -5px;
+  height:33px;
+}
+.modalHeader{
+  font-size: 1.4em !important;
+}
+.linkText{
+  color: #005cbf;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.notifyMessage{
+  color:#f5b60e;
+  font-size:0.9em !important;
+}
+@media (max-width: 700px){
+  .usersettingHeader{
+    font-size: 1.3em;
+  }
+  .savBtn{
+    font-size: 0.9em;
+    padding: 0.3em 0.6em;
+  }
+  .delBtn{
+    font-size: 0.9em !important;
+    padding: 0.3em 0.6em !important;
+  }
+
+  .numberOfField {
+    width: 60px;
+    margin-right: 15px;
+    margin-top: -5px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 310px){
+  .numberOfField {
+    width: 50px !important;
+  }
+}

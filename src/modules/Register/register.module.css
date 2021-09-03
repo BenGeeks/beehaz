@@ -1,0 +1,173 @@
+.register {
+  padding: 20px 0px;
+}
+
+.register_wrapper {
+  display: block;
+  position: relative;
+  border: 3px solid #439a86;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.register_image {
+  box-sizing: border-box;
+  max-width: 120px;
+  height: auto;
+  margin: 10px;
+}
+
+.back_to_home {
+  text-decoration: none;
+  text-align: center;
+  font-size: .75rem;
+  color: #439a86;
+}
+
+.back_to_home:hover {
+  text-decoration: none;
+  text-align: center;
+  font-size: .75rem;
+  font-weight: bold;
+  color: #439a86;
+}
+
+.input_group {
+  border-radius: 5px !important;
+}
+
+.input_group_text {
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  background-color: #439a86;
+  width: 150px !important;
+  color:  white!important;
+  font-size: .875rem;
+}
+
+.form_control {
+  border: 1px solid #439a86;
+  border-radius: 0px 5px 5px 0px !important;
+  font-size: .875rem;
+}
+
+.register_submit {
+  background-color: #439a86;
+  color: white;
+  padding: 10px;
+  width: 250px;
+  border: 0px;
+  font-size: 1rem;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.register_submit:hover {
+  background-color: #17866c;
+}
+.register_submit:disabled{
+  background-color: #61aa99;
+}
+.selector {
+  padding: 0;
+}
+
+.toolTipIconContainer{
+  position: absolute;
+  left: 130px;
+  width: 10px;
+  color: white;
+}
+
+.toolTipIcon {
+  transform: rotate(10deg);
+}
+
+.toolTip {
+  max-width: 80vw;
+}
+
+.hr {
+  width: 80%;
+  border-top: 1px solid rgba(67, 154, 134, 0.2);
+}
+
+.reminderWrapper {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.reminder {
+  font-family: 'Montserrat', 'roboto';
+  font-size: .875rem;
+  color: gray;
+}
+
+@media (min-width: 800px) {
+  .register {
+    padding: 50px 0px;
+  }
+
+  .register_image {
+    max-width: 200px;
+  }
+
+  .register_wrapper {
+    padding: 25px 50px;
+  }
+
+  .reminderWrapper {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .input_group {
+    border-radius: 5px !important;
+    width: 450px;
+  }
+  
+  .input_group_text {
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #439a86;
+    background-color: #439a86;
+    width: 170px !important;
+    color: white !important;
+    text-align: left;
+    display: inline-block !important;
+    font-size: 1rem;
+  }
+
+  .form_control {
+    border: 1px solid #439a86;
+    border-radius: 0px 5px 5px 0px !important;
+    display: inline-block !important;
+    width: auto !important;
+    font-size: 1rem;
+  }
+
+  .register_submit {
+    background-color: #439a86;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    border: 0px;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .toolTipIconContainer{
+    position: absolute;
+    left: 150px;
+    width: 10px;
+    color: white;
+  }
+
+  .toolTip {
+    max-width: 400px;
+  }
+}

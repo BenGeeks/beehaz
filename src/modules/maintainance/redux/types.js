@@ -1,0 +1,2 @@
+export const FETCH_DATA_API = 'FETCH_DATA_API';
+export const POST_DATA_API='POST_DATA_API';

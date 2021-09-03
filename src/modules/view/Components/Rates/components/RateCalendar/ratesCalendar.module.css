@@ -1,0 +1,191 @@
+.calendarSetup {
+    display: flex;
+    flex-direction: row;
+    padding-top:1em;
+  }
+
+/*.firstRow{*/
+/*    border: 2px solid #ecf3fa;*/
+/*}*/
+/*.table .tableHead .dateDisplay:nth-of-type(2){*/
+/*    margin-left: 160px;*/
+/*    display: block;*/
+/*}*/
+/*p{*/
+/*    margin-bottom: 0 !important;*/
+/*}*/
+.dateDisplay{
+    font-size: 0.9em;
+    font-weight:normal !important;
+    padding:0.3rem 0.75rem !important;
+    text-align: center;
+}
+.headRental{
+    position:sticky;
+    left: 0;
+    background-color: #fff;
+    padding: 0 !important;
+}
+.headRental p{
+    width: 145px;
+    border-right :2px solid #ecf3fa;
+    border-left :2px solid #ecf3fa;
+    margin: 0;
+    background-color: #fff;
+    height: 68px;
+    text-align: center;
+    padding-top: 26px;
+}
+.secondRow{
+    border-top: 2px solid #ecf3fa;
+    border-bottom: 2px solid #ecf3fa;
+    border-right: 2px solid #ecf3fa;
+}
+.secondData{
+    position: sticky;
+    left: 0;
+    background-color: #ececec;
+    padding: 0 !important;
+
+}
+
+.secondData div{
+    width: 145px;
+    display: block;
+    border-left: 2px solid #ecf3fa;
+
+}
+.firstRow {
+    letter-spacing: 1px;
+}
+.firstRow th {
+    border-top:2px solid  #ecf3fa !important;
+    border-bottom:2px solid  #ecf3fa !important;
+}
+.firstRow:last-child{
+    border-right:2px solid  #ecf3fa;
+}
+.rateInput{
+    width: 55px;
+    padding: 0 8px;
+    border: 1px solid #ced4da;
+    outline: none;
+    height: 22px;
+    margin: 2px 0 2px 0;
+}
+.rentalName{
+    margin-bottom: 4px;
+}
+.nightlyRate{
+    font-size: 12px;
+    margin: 2px 0 5px 0;
+    background: white;
+    border-radius: 4px;
+    padding: 2px 1px 2px 6px;
+    max-width: fit-content;
+}
+.rowWrapper p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.minStay{
+    font-size: 13px;
+    background: white;
+    border-radius: 4px;
+    padding: 2px 0 2px 6px;
+    margin-bottom: 5px;
+}
+.inputCell{
+    padding: 0.38rem 3px !important;
+}
+.bookingBox{
+    height: 20px;
+    text-align: center;
+}
+.rowWrapper{
+    padding: 2px 5px;;
+}
+.allBtn {
+    background-color: #439a86;
+    color: white;
+    padding: 0.35em;
+    border: 0px;
+    margin-right: 1em;
+    border-radius: 5px;
+    min-width: 7rem;
+}
+.flexEnd {
+    margin: 0;
+}
+.allBtn:hover{
+    background-color:#177e66;
+}
+.dayHead{
+    color: #777;
+    font-size: 11px;
+}
+.dateHead{
+    font-weight: 505;
+}
+.flexDisp{
+    display: flex ;
+    align-items: center;
+}
+.currencyStyles{
+   margin: 0 0 0 8px;
+   font-size: 12px;
+}
+
+.dateRange {
+    font-size: 13px !important;
+}
+.rateForm__label,
+.rateForm__input,
+.dateRange {
+    font-size: 13px !important;
+}
+
+@media screen and (max-width:575px) {
+
+    .headRental p {
+        width: 118px;
+    }
+    .secondData div {
+        width: 118px;
+    }
+    .nightlyRate {
+        font-size: 12px;
+    }
+    .minStay {
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+    .dateDisplay{
+        font-size: 13px;
+    }
+    .rateInput {
+        width: 42px;
+    }
+    .flexEnd {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+    .allBtn{
+        font-size: 0.9em;
+        padding:0.25em;
+        min-width: 6rem;
+    }
+
+    .dateRange {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
